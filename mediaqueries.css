@@ -31,9 +31,9 @@
     .header-title{
         width: 320px;
         height: auto;
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 700;
+        font-family: 'SF Sports Night';
+        font-style: italic;
+        font-weight: 400;
         font-size: 36px;
         line-height: 46px;
 
@@ -68,10 +68,10 @@
         width: 320px;
         height: 58px;
         
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
+        font-family: 'SF Sports Night';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
         line-height: 28px;
         margin-bottom: 80px;
         white-space: nowrap;
@@ -92,10 +92,10 @@
         width: 280px;
         height: 93px;
 
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
+        font-family: 'SF Sports Night';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 23px;
         line-height: 31px;
         margin-left: 2px;
     }
@@ -138,12 +138,22 @@
         width: 320px;
         height: auto;
 
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 700;
+        font-family: 'SF Sports Night';
+        font-style: italic;
+        font-weight: 400;
         font-size: 36px;
         line-height: 46px;
     }
+    
+    #mid-subtitle {
+    font-family: 'SF Sports Night';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
     
     .middle-point{
         width: 286px;
@@ -185,18 +195,17 @@
     }
     
     .footer-title{
-        width: 240px;
-        height: 216px;
-
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 28px;
-        line-height: 36px;
-
-        color: #03070F;
-        margin-top: 40px;
+       width: 240px;
+      height: auto;
+      font-family: 'SF Sports Night';
+      font-style: italic;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 30px;
+      color: #03070F;
+      margin-top: 40px;
     }
+    
     
     .footer-text{
         width: 240px;
@@ -233,10 +242,10 @@
     .accordion-header h3{
         width: 258px;
 
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
+        font-family: 'SF Sports Night';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
         line-height: 24px;
        
     }
@@ -264,6 +273,9 @@
         margin-left: 16px;
         position: absolute;
         z-index: 3;
+        width: 288px;
+        padding-left: 32px;
+         white-space: nowrap;
     }
     
     .accordion{
