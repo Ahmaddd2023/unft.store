@@ -146,11 +146,11 @@ body{
 
 
 .header--btn:hover{
-    background: linear-gradient(90deg, #D758CD 30%, #6996DB 60%);
+    background: linear-gradient(82.75deg, #92E6FF 44.36%, #31C3EF 60%);
 }
 
 .middle--btn:hover{
-    background: linear-gradient(90deg, #D758CD 30%, #6996DB 60%);
+   background: linear-gradient(82.75deg, #92E6FF 44.36%, #31C3EF 60%);
 }
 
 #header-logo{
@@ -287,11 +287,12 @@ body{
     background: #03070F;
     border-radius: 1000px;
     
-    font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'SF Sports Night';
+    font-style: italic;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 18px;
+
 
     color: #FFFFFF;
     border-style: none;
@@ -299,6 +300,11 @@ body{
     cursor: pointer;
 }
 
+.square--btn:hover{
+    color: #03070F;
+    background: #fff;
+    transition: 0.3s linear;
+}
 
 /*--------------------------------------------------------*/
 .middle-title{
@@ -445,6 +451,12 @@ li{
     z-index: 3;
     border-style: none;
     cursor: pointer;
+}
+
+.footer--btn:hover{
+    color: #03070F;
+    background: #fff;
+    transition: 0.3s linear;
 }
 
 .footer-title{
