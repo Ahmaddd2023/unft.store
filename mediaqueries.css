@@ -1,0 +1,366 @@
+/*for mobile */
+@media all and (max-width:768px){
+    .row{
+        display: grid;
+        flex-direction: column;
+        place-items: center;
+    }
+    
+    .container{
+        width: auto;
+    }
+    
+    .desktopcolumn{
+    display: flex;
+    flex-direction: column;
+        
+    }
+    
+    #header-logo{
+        padding: 40px 20px 20px;
+        width: 60px;
+    }
+    
+    #body--bg{
+        min-width: 360px;
+        padding: 160px 0 10px;
+        margin-bottom: 80px;
+        
+    }
+    
+    .header-title{
+        width: 320px;
+        height: auto;
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+
+        color: #FFFFFF;
+        margin:0;
+    }
+    
+    .header-text{
+        width: 320px;
+        height: auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 30px;
+
+
+        color: #FFFFFF;
+
+        opacity: 0.65;
+    }
+    
+    .header--btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 40px;
+        gap: 10px;
+
+        width: 320px;
+        height: 58px;
+        
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 80px;
+        white-space: nowrap;
+    }
+    
+    .main-row{
+     display: block;
+    }
+    
+    .block{
+        width: 360px;
+        height: auto;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .main-text{
+        width: 280px;
+        height: 93px;
+
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        margin-left: 2px;
+    }
+    
+    #main-logo{
+        margin-top: 40px;
+    }
+    
+    .middle-text{
+        width: 320px;
+        height: auto;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+
+        opacity: 0.65;
+    }
+    
+    .square{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+        gap: 20px;
+
+        width: 320px;
+        height: 290px;
+
+        background: #2B3039;
+        border-radius: 40px;
+
+    }
+    
+    .middle-title{
+        width: 320px;
+        height: auto;
+
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+    }
+    
+    .middle-point{
+        width: 286px;
+        height: auto;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+
+        opacity: 0.65;
+        margin-bottom: 10px;
+
+    }
+    
+    #main-icon{
+        margin: 35px 40px 0;
+    }
+    
+    .middle-subtitle{
+        width: 320px;
+        height: 116px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+    }
+    
+    .footer{
+        width: 320px;
+        height: 740px;
+    }
+    
+    .footer-title{
+        width: 240px;
+        height: 216px;
+
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+
+        color: #03070F;
+        margin-top: 40px;
+    }
+    
+    .footer-text{
+        width: 240px;
+        height: 196px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+
+        color: #03070F;
+
+        opacity: 0.6;
+        margin-top: 0px;
+    }
+    
+    .accordion-text{
+        width: 258px;
+        height: auto;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    .footer::before{
+        background-image: url(assets/img/artmob.png);
+        top: 250px;
+    }
+    
+    .accordion-header h3{
+        width: 258px;
+
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+       
+    }
+    
+    #img-size1{
+        width: 360px;
+        margin: 0;
+    }
+    
+    #img-size2{
+        width: 360px;
+        margin: 0;
+    }
+    
+    #img-size3{
+        width: 360px;
+        margin: 0;
+    }
+    
+    
+    
+    .footer--btn{
+        left: 0;
+        top: 593px;
+        margin-left: 16px;
+        position: absolute;
+        z-index: 3;
+    }
+    
+    .accordion{
+        display: grid;
+        justify-content: center;
+        margin-bottom: 120px;
+    }
+    
+    .square{
+        width: 320px;
+        height: auto;
+    }
+    
+    .rowblock{
+        display: grid;
+        justify-content: center;
+        margin-top: -115px;
+        margin-bottom: 80px;
+    }
+    
+    .place--position{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .placeright--position{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .middle{
+       display: grid;
+        place-items: center;
+    }
+    
+    .acc--icon{
+        right: -12px;
+        position: absolute;
+        width: 16px;
+        margin-top: -23px;
+    }
+    
+    .square-text{
+        width: 240px;
+        height: auto;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: #FFFFFF;
+
+        opacity: 0.6;
+        margin: 15px 40px 40px;
+    }
+    
+    .square--btn{
+        width: 240px;
+        height: 58px;
+        /*margin: -45px 40px 40px;*/
+        margin: -25px 40px 39px;
+    }
+    
+    #position-on-mobile{
+        margin-top: -100px;
+    }
+    
+    #position-on{
+        margin-top: -115px;
+    }
+    .column{
+        margin: 0;
+    }
+    
+    .middle--btn{
+        margin-left: 0;
+    }
+}
+
+
+@media all and (min-width:769px) and (max-width:1130px){
+    body {
+    margin: 0 auto;
+    width: 100%;
+   position: relative;
+        margin-left: 9px;
+   
+        
+}
+    
+    #body--bg {
+    background: #10131A;
+    width: 1123px;
+    height: auto;
+    background-repeat: repeat;
+    padding: 160px 0 40px;
+    margin-bottom: 160px;
+}
